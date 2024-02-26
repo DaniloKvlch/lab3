@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>WorkWithText</title>
+        </head>
+        <body>
+        <nav>
+            <a href="/index.html" style="font-size: 20px;">Головне меню</a>
+        </nav>
+        <h1>Демонстрація Форми</h1>
+        <form style="font-size: 20px;" >
+            <fieldset>
+                <br>
+            <div>
+                <label for="name">Введіть ім'я:</label>
+                <input type="text" id="name" name="name" required placeholder="Введіть ваше ім'я">
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="age">Ваш вік:</label>
+                <input type="text" id="age" name="age" required placeholder="Введіть ваш вік">
+            </div>
+            <br>
+        </fieldset>
+
+        <br>
+            <div>
+                <label for="password">Придумайте пароль:</label>
+                <input type="password" id="password" name="password" required placeholder="Введіть пароль">
+            </div>
+            
+            <br>
+
+            <div>
+                <label>Стать:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Чоловік</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Жінка</label>
+            </div>
+
+            <br>
+            
+            <div>
+                <label for="remember">Запам'ятати мене:</label>
+                <input type="checkbox" id="remember" name="remember">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="city">Оберіть своє місто:</label>
+                <select id="city" name="city" required>
+                    <option value="" disabled selected>Виберіть місто</option>
+                    <option value="city1">Київ</option>
+                    <option value="city2">Житомир</option>
+                    <option value="city3">Львів</option>
+                    
+                </select>
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="message">Введіть ваше повідомлення:</label>
+                <br>
+          
+                <textarea id="message" name="message" rows="3" cols="100" required placeholder="Введіть ваше повідомлення"></textarea>
+            </div>
+
+            <br>
+
+            <input style="font-size: 20px;"  type="submit" value="Надіслати">
+       
+       
+       
+        </form>
+
+        </body>
+    </html>
